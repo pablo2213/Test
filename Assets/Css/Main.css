@@ -1,0 +1,90 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.tx-title {
+	color: #50a0ea;
+}
+
+.sb-title {
+	color: #ccc;
+}
+
+.tx-position {
+	margin: 5px 0;
+	color: #ccc;
+}
+.tx-content {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.tx-name {
+	margin: 0;
+	font-weight: bold;
+}
+.sinPadding{
+    padding:0 !important;
+}
+.btn {
+	border: solid 1px #9cde46;
+	border-radius: 15px;
+	padding: 5px 15px;
+	background-color: #fff;
+	color: #9cde46;
+	cursor: pointer;
+}
+
+.btn:hover {
+	border: solid 1px #9cde46;
+	background-color: #9cde46;
+	color: #fff;
+}
+
+.Container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.Row {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 15px;
+	flex: 1;
+}
+
+.Col-3 {
+	width: 25%;
+}
+
+.Col-6 {
+	width: 50%;
+}
+
+.Content-dc {
+	margin: 0 10px 10px;
+	text-align: center;
+}
+@media (min-width: 769px) {
+	.Row {
+		flex-wrap: wrap;
+    }
+    .slider-nav{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 769px) {
+	.Col-12 {
+		width: 100%;
+    }
+    
+}
